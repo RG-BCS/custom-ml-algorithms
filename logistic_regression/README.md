@@ -55,7 +55,7 @@ logistic_regression/
 
 ```bash
 # Clone the repository and navigate into the project
-git clone <your-repo-url>
+git clone <repo-url>
 cd logistic_regression
 
 # Install dependencies
