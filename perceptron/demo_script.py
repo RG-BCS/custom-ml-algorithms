@@ -13,7 +13,7 @@ Original file is located at
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
-from perceptron import Perceptron
+from perceptron import perceptron 
 from utils import plot_decision_region
 
 # Load and prepare data
@@ -27,7 +27,7 @@ perm = np.random.permutation(len(X))
 X, y = X[perm], y[perm]
 
 # Train perceptron
-clf = Perceptron(eta=0.01, n_iter=10)
+clf = perceptron(eta=0.01, n_iter=10)
 clf.fit(X, y)
 
 # Plot decision boundary
