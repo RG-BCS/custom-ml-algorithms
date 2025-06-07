@@ -28,13 +28,7 @@ We use a subset of the **Iris dataset**, focusing on binary classification (Seto
 
 ## Key Concepts
 
-| Feature                     | AdalineGD (Batch GD)           | AdalineSGD (Stochastic GD)    |
-|----------------------------|-----------------------------------------------------------------|
-| Weight Update              | Once per epoch (entire dataset) | Per training sample           |
-| Convergence                | Stable but may be slow          | Faster updates, noisier path  |
-| Loss Function              | Mean Squared Error (MSE)        | Same                          |
-| Suitable For               | Smaller datasets                | Large-scale or streaming data |
-
+<dl> <dt><strong>AdalineGD</strong></dt> <dd>Uses batch gradient descent — weight updates are performed after evaluating the entire dataset.</dd> <dt><strong>AdalineSGD</strong></dt> <dd>Uses stochastic gradient descent — weights are updated per individual sample, enabling faster but noisier convergence.</dd> <dt><strong>Loss Function</strong></dt> <dd>Mean Squared Error (MSE) is used to measure prediction error and guide weight updates.</dd> <dt><strong>Activation Function</strong></dt> <dd>Identity function; the raw net input is used directly (linear activation).</dd> <dt><strong>Standardization</strong></dt> <dd>Feature standardization (zero mean and unit variance) is crucial for stable and fast convergence.</dd> </dl>
 ---
 
 ## 🛠️ How to Run
