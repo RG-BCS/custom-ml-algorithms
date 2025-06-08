@@ -13,14 +13,14 @@ This repository contains a from-scratch implementation of the **Gaussian Naive B
 ---
 
 ## Project Structure
- <pre> ```
+ ```
   GaussianNaiveBayes/ 
     ├── gaussian_nb.py # Custom implementation 
     ├── demo.ipynb # Interactive walkthrough 
     ├── demo_script.py # Script for terminal execution 
     ├── requirements.txt # Dependencies 
     └── README.md # You're reading it 
-```</pre>pre> 
+``` 
 ---
 
 ## Dataset
@@ -34,18 +34,19 @@ This repository contains a from-scratch implementation of the **Gaussian Naive B
 
 ### Option 1: Run the Notebook
 
+```bash
 jupyter notebook demo.ipynb
-
+```
 ### Option 2: Run the Notebook
 
+```bash
 python demo_script.py
-
+```
 ---
-## Results(Sample)
 
+## Results(Sample)
+```bash
 [Custom GNB] Train Accuracy: 0.9780 | Test Accuracy: 0.9649
 
 [Sklearn GNB] Train Accuracy: 0.9780 | Test Accuracy: 0.9737
-
-
-
+```
