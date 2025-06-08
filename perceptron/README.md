@@ -1,29 +1,69 @@
-# Perceptron from Scratch
+# Perceptron from Scratch (Binary Classification)
 
-This project implements a binary Perceptron classifier from scratch using NumPy. It applies the model to a subset of the Iris dataset and visualizes the decision boundary and training error.
+This project contains a minimal yet complete implementation of the **Perceptron algorithm** — one of the earliest and simplest types of artificial neural networks — built from scratch using **NumPy**.
 
-## 🚀 Features
+The model is applied to a binary classification task using the **Iris dataset**, and visualized using `matplotlib`.
 
-- Manual implementation (no scikit-learn models used)
-- Uses only NumPy and Matplotlib
-- Decision boundary and error plot visualization
-- Self-contained utility for plotting regions
+---
 
-## Demo
+## 🧠 What You'll Learn
 
-Use the included notebook or script to:
+- How the Perceptron learning algorithm works internally
+- How to implement a simple neural classifier from scratch
+- How to visualize decision boundaries in 2D
+- The difference between zero-initialized and randomly-initialized weights
 
-- Train the Perceptron on Setosa vs Versicolor (Iris dataset)
-- Visualize the classification boundary
-- Plot the number of misclassifications over time
+---
 
-## 📂 Project Structure
+## 📁 Folder Structure
 
-<pre> ```
+<pre>```
 perceptron/
-  ├── perceptron.py # Binary classification
-  ├── utils.py # Utility functions (e.g., decision boundary plotting)
-  ├── demo_script.py # End-to-end demo for binary & multiclass classification
-  ├── requirements.txt
-  └── README.md
-```</pre> 
+    ├── perceptron.py # Core implementation of the Perceptron class
+    ├── utils.py # Utility functions (e.g., decision boundary plotting)
+    ├── demo_script.py # Script to train, plot, and evaluate
+    ├── demo.ipynb # Interactive version for notebooks
+    ├── requirements.txt # Required packages
+    └── README.md # You're reading it!
+```</pre>
+
+---
+
+
+---
+
+## 📊 Dataset
+
+- **Iris Dataset** from `sklearn.datasets`
+- Binary classification: **Setosa (0)** vs **Versicolor (1)**
+- Using only two features: **Sepal Length** and **Petal Length**
+
+---
+
+## 🚀 How to Run
+
+### Option 1: Run the notebook
+
+```bash
+jupyter notebook demo.ipynb
+
+### Option 1: Run the script
+
+```bash
+python demo_script.py
+
+---
+
+## Requirements
+
+pip install -r requirements.txt
+
+---
+
+## Notes
+
+.Uses stochastic updates (one sample at a time)
+
+.No loss function in the traditional sense — updates are based on sign errors
+
+.Great starting point for understanding neural networks & linear classifiers
