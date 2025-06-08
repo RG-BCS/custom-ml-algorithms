@@ -56,13 +56,16 @@ python demo_script.py
 ---
 
 ## Requirements
+bash
 
 pip install -r requirements.txt
 
 ---
 
 ---
+
 ## Notes
+bash
 
 .Uses stochastic updates (one sample at a time)
 
