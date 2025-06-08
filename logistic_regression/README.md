@@ -6,7 +6,7 @@ This repository implements **binary** and **multiclass logistic regression** usi
 
 ## 📁 Folder Structure
 
-<pre> ```
+```
 logistic_regression/
   ├── logistic_binary.py # Binary logistic regression using gradient descent
   ├── logistic_multiclass.py # Multiclass logistic regression (softmax) with L1/L2 regularization
@@ -14,7 +14,7 @@ logistic_regression/
   ├── demo_script.py # End-to-end demo for binary & multiclass classification
   ├── requirements.txt
   └── README.md
-```</pre> 
+```
 
 ---
 
@@ -54,17 +54,15 @@ logistic_regression/
 
 ## 🚀 How to Run
 
+### Option 1: Run the notebook
+
 ```bash
-# Clone the repository and navigate into the project
-git clone <repo-url>
-cd logistic_regression
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the end-to-end demo
+jupyter notebook demo.ipynb
+```
+**Option 2: Run the script**
+```bash
 python demo_script.py
-
+```
 
 === Binary Classification Demo (Iris Dataset) ===
 [Decision boundary plot shown]
@@ -72,4 +70,3 @@ python demo_script.py
 === Multiclass Classification Demo (Digits Dataset) ===
 Sklearn Logistic Regression Accuracy: 0.961
 Custom Logistic Regression Accuracy: 0.951
-
