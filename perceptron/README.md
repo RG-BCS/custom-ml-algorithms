@@ -17,7 +17,7 @@ The model is applied to a binary classification task using the **Iris dataset**,
 
 ## Folder Structure
 
-<pre>```
+```
 perceptron/
     ├── perceptron.py # Core implementation of the Perceptron class
     ├── utils.py # Utility functions (e.g., decision boundary plotting)
@@ -25,7 +25,7 @@ perceptron/
     ├── demo.ipynb # Interactive version for notebooks
     ├── requirements.txt # Required packages
     └── README.md # You're reading it!
-```</pre>
+```
 
 ---
 
