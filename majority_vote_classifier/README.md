@@ -1,4 +1,4 @@
-# 🧠 Majority Vote Classifier
+# Majority Vote Classifier
 
 A custom ensemble learning implementation that combines multiple base classifiers using majority voting. Supports both **class label** and **probability-based** voting strategies, fully compatible with the `scikit-learn` API, including pipelines and `GridSearchCV`.
 
@@ -81,7 +81,8 @@ This project implements a custom majority voting ensemble that mimics the functi
 ---
 
 # Use Cases
-
+```bash
 -Experimenting with ensemble methods in custom pipelines
 -Teaching or learning ML ensembling concepts
 -Extending voting behavior for more complex tasks (e.g., time-series or NLP classifiers)
+```
