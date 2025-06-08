@@ -13,14 +13,14 @@ This repository contains a from-scratch implementation of the **Gaussian Naive B
 ---
 
 ## Project Structure
- 
+ <pre> ```
   GaussianNaiveBayes/ 
     ├── gaussian_nb.py # Custom implementation 
     ├── demo.ipynb # Interactive walkthrough 
     ├── demo_script.py # Script for terminal execution 
     ├── requirements.txt # Dependencies 
     └── README.md # You're reading it 
-
+```</pre>pre> 
 ---
 
 ## Dataset
