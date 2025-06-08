@@ -26,4 +26,26 @@ scores = cross_val_score(clf, X_scaled, y, cv=5, scoring='f1-score', random_stat
 print("F1 scores:", scores)
 print("Mean F1:", scores.mean())
 
+---
 
+## How to Run
+
+### Option 1: Run the Notebook
+
+```bash
+jupyter notebook demo.ipynb
+```
+### Option 2: Run the Notebook
+
+```bash
+python demo_script.py
+```
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/custom-knn.git
+cd custom-knn
+pip install -r requirements.txt
+```
