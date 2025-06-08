@@ -1,4 +1,4 @@
-# Custom C# Custom Cross-Validation Utility
+# Custom Cross-Validation Utility
 
 This repository contains a custom implementation of k-fold cross-validation supporting multiple scoring metrics including accuracy, precision, recall, and F1-score.
 
@@ -25,3 +25,5 @@ clf = LogisticRegression(max_iter=500)
 scores = cross_val_score(clf, X_scaled, y, cv=5, scoring='f1-score', random_state=42)
 print("F1 scores:", scores)
 print("Mean F1:", scores.mean())
+
+
