@@ -48,9 +48,9 @@ perceptron/
 jupyter notebook demo.ipynb
 ```
 Option 2: Run the script
-
+```bash
 python demo_script.py
-
+```
 
 ---
 
