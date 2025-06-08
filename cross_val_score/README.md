@@ -13,6 +13,18 @@ This repository contains a custom implementation of k-fold cross-validation supp
 
 ---
 
+## 📁 File Structure
+
+```
+cross_val_custom/
+  ├── cross_val_score.py # Core cross-validation logic (from scratch)
+  ├── demo_script.py # Python script comparing custom vs sklearn
+  ├── demo.ipynb # Jupyter notebook with visuals and metric outputs
+  ├── requirements.txt # Dependencies (NumPy, scikit-learn)
+  └── README.md # Project documentation (this file)
+```
+
+---
 ## Usage
 
 ```python
