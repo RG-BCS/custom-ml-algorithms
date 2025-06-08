@@ -33,8 +33,12 @@ We use a subset of the **Iris dataset**, focusing on binary classification (Seto
 
 ## 🛠️ How to Run
 
-### 1. Clone the repo or navigate to this subfolder
-```bash
-git clone https://github.com/your_username/custom-ml-algorithms.git
-cd custom-ml-algorithms/adaline
+### Option 1: Run the notebook
 
+```bash
+jupyter notebook demo.ipynb
+```
+**Option 2: Run the script**
+```bash
+python demo_script.py
+```
