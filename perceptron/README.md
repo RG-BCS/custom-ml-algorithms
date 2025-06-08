@@ -49,7 +49,7 @@ jupyter notebook demo.ipynb
 
 ### Option 1: Run the script
 
-```bash
+bash
 python demo_script.py
 
 
