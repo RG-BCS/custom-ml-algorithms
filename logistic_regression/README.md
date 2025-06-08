@@ -6,14 +6,15 @@ This repository implements **binary** and **multiclass logistic regression** usi
 
 ## 📁 Folder Structure
 
+<pre> ```
 logistic_regression/
-├── logistic_binary.py # Binary logistic regression using gradient descent
-├── logistic_multiclass.py # Multiclass logistic regression (softmax) with L1/L2 regularization
-├── utils.py # Utility functions (e.g., decision boundary plotting)
-├── demo_script.py # End-to-end demo for binary & multiclass classification
-├── requirements.txt
-└── README.md
-
+  ├── logistic_binary.py # Binary logistic regression using gradient descent
+  ├── logistic_multiclass.py # Multiclass logistic regression (softmax) with L1/L2 regularization
+  ├── utils.py # Utility functions (e.g., decision boundary plotting)
+  ├── demo_script.py # End-to-end demo for binary & multiclass classification
+  ├── requirements.txt
+  └── README.md
+```</pre> 
 
 ---
 
