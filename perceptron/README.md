@@ -19,3 +19,11 @@ Use the included notebook or script to:
 
 ## 📂 Project Structure
 
+<pre> ```
+perceptron/
+  ├── perceptron.py # Binary classification
+  ├── utils.py # Utility functions (e.g., decision boundary plotting)
+  ├── demo_script.py # End-to-end demo for binary & multiclass classification
+  ├── requirements.txt
+  └── README.md
+```</pre> 
