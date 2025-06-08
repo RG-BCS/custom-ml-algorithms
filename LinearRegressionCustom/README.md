@@ -41,12 +41,12 @@ The implementation is designed for educational purposes and to demonstrate core 
 
 ## Usage
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone <repository_url>
 cd <repository_folder>
-
+```
 ---
 
 ## Install dependencies
