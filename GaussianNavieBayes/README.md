@@ -44,6 +44,7 @@ python demo_script.py
 ## Results(Sample)
 
 [Custom GNB] Train Accuracy: 0.9780 | Test Accuracy: 0.9649
+
 [Sklearn GNB] Train Accuracy: 0.9780 | Test Accuracy: 0.9737
 
 
