@@ -46,7 +46,7 @@ perceptron/
 
 ```bash
 jupyter notebook demo.ipynb
-
+```
 Option 2: Run the script
 
 python demo_script.py
@@ -56,12 +56,14 @@ python demo_script.py
 
 ## Requirements
 
+``` bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Notes
-
+```bash
 - Uses stochastic updates (one sample at a time)  
 - No loss function in the traditional sense — updates are based on sign errors  
 - Great starting point for understanding neural networks & linear classifiers
+```
