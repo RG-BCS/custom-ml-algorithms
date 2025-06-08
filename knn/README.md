@@ -42,7 +42,7 @@ python demo_script.py
 ```
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/custom-knn.git
