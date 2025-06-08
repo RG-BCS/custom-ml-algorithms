@@ -52,6 +52,7 @@ jupyter notebook demo.ipynb
 ```bash
 python demo_script.py
 
+
 ---
 
 ## Requirements
@@ -60,6 +61,7 @@ pip install -r requirements.txt
 
 ---
 
+---
 ## Notes
 
 .Uses stochastic updates (one sample at a time)
