@@ -65,8 +65,12 @@ python demo_script.py
 ```
 
 === Binary Classification Demo (Iris Dataset) ===
+```bash
 [Decision boundary plot shown]
+```
 
 === Multiclass Classification Demo (Digits Dataset) ===
+```bash
 Sklearn Logistic Regression Accuracy: 0.961
 Custom Logistic Regression Accuracy: 0.951
+```
