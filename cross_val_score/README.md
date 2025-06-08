@@ -2,12 +2,16 @@
 
 This repository contains a custom implementation of k-fold cross-validation supporting multiple scoring metrics including accuracy, precision, recall, and F1-score.
 
+---
+
 ## Features
 
 - Supports non-stratified and stratified (binary classification) k-fold splits
 - Random seed control for reproducibility
 - Implements common classification metrics
 - Compares results to scikit-learn for validation
+
+---
 
 ## Usage
 
@@ -25,6 +29,7 @@ clf = LogisticRegression(max_iter=500)
 scores = cross_val_score(clf, X_scaled, y, cv=5, scoring='f1-score', random_state=42)
 print("F1 scores:", scores)
 print("Mean F1:", scores.mean())
+```
 
 ---
 
