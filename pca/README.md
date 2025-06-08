@@ -1,10 +1,10 @@
-# 🧠 PCA from Scratch (NumPy)
+# PCA from Scratch (NumPy)
 
 This project contains a clean, NumPy-only implementation of Principal Component Analysis (PCA), benchmarked against `scikit-learn`.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Eigen decomposition-based PCA
 - Standardization included
@@ -13,7 +13,7 @@ This project contains a clean, NumPy-only implementation of Principal Component 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | File              | Description                            |
 |-------------------|----------------------------------------|
@@ -25,7 +25,7 @@ This project contains a clean, NumPy-only implementation of Principal Component 
 
 ---
 
-## 📊 Results Snapshot
+## Results Snapshot
 
 ```bash
 Custom PCA shape: (124, 2)
@@ -39,7 +39,7 @@ ___
 
 ---
 
-## 💡 Educational Value
+## Educational Value
 
 ```bash
 This implementation helps you understand:
