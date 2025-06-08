@@ -6,7 +6,7 @@ The model is applied to a binary classification task using the **Iris dataset**,
 
 ---
 
-## 🧠 What You'll Learn
+## What You'll Learn
 
 - How the Perceptron learning algorithm works internally
 - How to implement a simple neural classifier from scratch
@@ -15,7 +15,7 @@ The model is applied to a binary classification task using the **Iris dataset**,
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 <pre>```
 perceptron/
@@ -47,16 +47,16 @@ perceptron/
 ```bash
 jupyter notebook demo.ipynb
 
-### Option 1: Run the script
 
+Option 2: Run the script
 bash
+
 python demo_script.py
 
 
 ---
 
-## Requirements
-bash
+Requirements
 
 pip install -r requirements.txt
 
