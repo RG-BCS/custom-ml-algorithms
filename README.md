@@ -30,7 +30,7 @@ It’s ideal for learning, teaching, interviews, and showcasing applied ML knowl
 
 ---
 
-## 📈 Highlights
+## Highlights
 
 - **Built from scratch** — zero reliance on scikit-learn internals  
 - **Gradient Descent** with early stopping and learning rate schedules  
