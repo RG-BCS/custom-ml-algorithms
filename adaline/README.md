@@ -6,7 +6,7 @@ It's part of a series of custom machine learning algorithm implementations aimed
 
 ---
 
-## 🔍 What’s Inside
+##  What’s Inside
 
 - `adaline_gd.py` – Adaline with Batch Gradient Descent  
 - `adaline_sgd.py` – Adaline with Stochastic Gradient Descent  
@@ -17,7 +17,7 @@ It's part of a series of custom machine learning algorithm implementations aimed
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 We use a subset of the **Iris dataset**, focusing on binary classification (Setosa vs. Versicolor) using two features:
 
@@ -31,7 +31,7 @@ We use a subset of the **Iris dataset**, focusing on binary classification (Seto
 <dl> <dt><strong>AdalineGD</strong></dt> <dd>Uses batch gradient descent — weight updates are performed after evaluating the entire dataset.</dd> <dt><strong>AdalineSGD</strong></dt> <dd>Uses stochastic gradient descent — weights are updated per individual sample, enabling faster but noisier convergence.</dd> <dt><strong>Loss Function</strong></dt> <dd>Mean Squared Error (MSE) is used to measure prediction error and guide weight updates.</dd> <dt><strong>Activation Function</strong></dt> <dd>Identity function; the raw net input is used directly (linear activation).</dd> <dt><strong>Standardization</strong></dt> <dd>Feature standardization (zero mean and unit variance) is crucial for stable and fast convergence.</dd> </dl>
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 ### Option 1: Run the notebook
 
