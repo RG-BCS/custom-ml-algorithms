@@ -1,10 +1,10 @@
-# 🔍 KNN From Scratch (NumPy)
+# KNN From Scratch (NumPy)
 
 This project provides a from-scratch implementation of the K-Nearest Neighbors (KNN) algorithm using NumPy, with benchmarking against scikit-learn's version.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Clean KNN implementation from scratch
 - Vectorized Minkowski distance computation
@@ -14,7 +14,7 @@ This project provides a from-scratch implementation of the K-Nearest Neighbors (
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 | File             | Description                        |
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-📊 Sample Output
+Sample Output
 
 ```bash
 Custom KNN       → Train: 0.9780, Test: 0.9561
