@@ -4,7 +4,7 @@ A custom ensemble learning implementation that combines multiple base classifier
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 majority_vote_classifier/
