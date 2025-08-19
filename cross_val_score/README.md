@@ -13,7 +13,7 @@ This repository contains a custom implementation of k-fold cross-validation supp
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 cross_val_custom/
