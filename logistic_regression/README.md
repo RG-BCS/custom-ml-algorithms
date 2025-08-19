@@ -4,7 +4,7 @@ This repository implements **binary** and **multiclass logistic regression** usi
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 logistic_regression/
@@ -18,15 +18,15 @@ logistic_regression/
 
 ---
 
-## 📌 Features
+## Features
 
-### ✅ Binary Logistic Regression
+### Binary Logistic Regression
 - Implements logistic regression using the sigmoid function
 - Full-batch gradient descent optimization
 - Option to standardize input features
 - Visualizes decision boundaries on 2D datasets (Iris)
 
-### ✅ Multiclass Logistic Regression
+### Multiclass Logistic Regression
 - Uses softmax activation for multi-class classification
 - Trains with cross-entropy loss
 - Regularization support:
@@ -37,7 +37,7 @@ logistic_regression/
 
 ---
 
-## 📊 Demos Included
+## Demos Included
 
 ### Binary Classification
 - Dataset: **Iris** (class 0 vs 1 only)
@@ -52,7 +52,7 @@ logistic_regression/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1: Run the notebook
 
